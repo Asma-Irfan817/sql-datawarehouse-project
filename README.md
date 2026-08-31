@@ -5,7 +5,7 @@ This project focuses on building a **data warehouse** and analyzing data to find
 
 🏗️ Data Architecture
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
-![Uploading image.png…]()
+<img width="637" height="317" alt="image" src="https://github.com/user-attachments/assets/f47e28ce-ad0c-47ec-9d09-6342f0ac8b0f" />
 Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
@@ -42,7 +42,11 @@ Use SQL to analyze the data and find useful insights about:
 * Product Performance
 * Sales Trends
 
-📂 Repository Structure
+📂 Repository Structure:
+
+![Uploading image.png…]()
+
+
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
