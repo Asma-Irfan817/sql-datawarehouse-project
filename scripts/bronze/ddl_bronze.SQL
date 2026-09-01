@@ -75,11 +75,3 @@ cat NVARCHAR(50),
 subcat NVARCHAR(50),
 maintenance NVARCHAR (50)
 );
-
-BULK INSERT bronze.crm_cust_info
-FROM 'C:\Users\User\Desktop\warehouse_project\sql-data-warehouse-project-main\sql-data-warehouse-project-main\datasets\source_crm\cust_info.csv'
-WITH (
-FIRSTROW = 2 ,
-FIELDTERMINATOR = ',',
-TABLOCK
-);
